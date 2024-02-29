@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
-// const uri = 'mongodb+srv://swfood:asd123asd456@swfood.tgjfi.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
-const uri = 'mongodb://localhost:27017/swfood';
+const uri = 'mongodb+srv://rockfercho:abcdefABCDEF@swfood.hfxcy7s.mongodb.net/';
+// const uri = 'mongodb://localhost:27017/swfood';
 async function connect() {
   await mongoose.connect(uri, { useUnifiedTopology: true, useNewUrlParser: true, useFindAndModify: false });
   console.log('Data base connected ...');
